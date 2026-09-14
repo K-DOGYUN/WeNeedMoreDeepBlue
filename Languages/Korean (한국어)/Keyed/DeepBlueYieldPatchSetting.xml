@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <deepBlueExtracterCrudeSpeed>조잡한 딥블루 추출기 딥블루 생산속도:</deepBlueExtracterCrudeSpeed>
+  <deepBlueExtracterSpeed>딥블루 추출기 딥블루 생산속도:</deepBlueExtracterSpeed>
+  <deepBlueExtracterAbysstechSpeed>어비스테크 딥블루 추출기 딥블루 생산속도:</deepBlueExtracterAbysstechSpeed>
+  <deepblueStationSpawnCount>어비스테크 딥블루 스테이션 1회 생산량:</deepblueStationSpawnCount>
+  <abyssteelAirtight>어비스틸 진공 차단여부</abyssteelAirtight>
+</LanguageData>
