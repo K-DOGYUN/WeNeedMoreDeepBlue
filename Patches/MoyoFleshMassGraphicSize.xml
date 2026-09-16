@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Use the known-good south-facing source directly while the cultured Moyo mass grows. -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/Moyo2.FishDef[defName="Moyo2_FleshMass"]</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/Moyo2.FishDef[defName="Moyo2_FleshMass"]/fishTankSettings/graphicData/texPath</xpath>
+          <value>
+            <texPath>Pawn/FleshMass/MoyoFish_FleshMass1_south</texPath>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/Moyo2.FishDef[defName="Moyo2_FleshMass"]/fishTankSettings/graphicData/graphicClass</xpath>
+          <value>
+            <graphicClass>Graphic_Single</graphicClass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/Moyo2.FishDef[defName="Moyo2_FleshMass"]/fishTankSettings/graphicData/drawSize</xpath>
+          <value>
+            <drawSize>2</drawSize>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
