@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Use the known-good south-facing source directly while the cultured Moyo mass grows. -->
+  <!-- The directional MoyoFish_FleshMass1 growth textures render invisible in the cultivation tank. -->
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/Moyo2.FishDef[defName="Moyo2_FleshMass"]</xpath>
     <match Class="PatchOperationSequence">
@@ -8,7 +8,7 @@
         <li Class="PatchOperationReplace">
           <xpath>Defs/Moyo2.FishDef[defName="Moyo2_FleshMass"]/fishTankSettings/graphicData/texPath</xpath>
           <value>
-            <texPath>Pawn/FleshMass/MoyoFish_FleshMass1_south</texPath>
+            <texPath>Pawn/FleshMass/MoyoFish_FleshMass</texPath>
           </value>
         </li>
         <li Class="PatchOperationReplace">
