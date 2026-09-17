@@ -5,4 +5,5 @@
   <deepBlueExtracterAbysstechSpeed>어비스테크 딥블루 추출기 딥블루 생산속도:</deepBlueExtracterAbysstechSpeed>
   <deepblueStationSpawnCount>어비스테크 딥블루 스테이션 1회 생산량:</deepblueStationSpawnCount>
   <abyssteelAirtight>어비스틸 진공 차단여부</abyssteelAirtight>
+  <workSpeedGenesMutuallyExclusive>효율적인 일꾼과 신중한 일꾼을 상호 배타적으로 설정</workSpeedGenesMutuallyExclusive>
 </LanguageData>

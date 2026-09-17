@@ -5,4 +5,5 @@
   <deepBlueExtracterAbysstechSpeed>Abysstech deepblue extractor extraction speed:</deepBlueExtracterAbysstechSpeed>
   <deepblueStationSpawnCount>Abysstech deepblue station production amount:</deepblueStationSpawnCount>
   <abyssteelAirtight>Abyssteel airtightness</abyssteelAirtight>
+  <workSpeedGenesMutuallyExclusive>Make efficient worker and deliberate worker mutually exclusive</workSpeedGenesMutuallyExclusive>
 </LanguageData>
